@@ -62,6 +62,8 @@ export default {
   font-size: 120px;
   text-align: center;
   user-select: none;
+  letter-spacing: 0.05em;
+  line-height: 1.4em;
 }
 .time-coron {
   animation: flashing-in ease 2s infinite;
