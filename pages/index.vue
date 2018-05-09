@@ -16,6 +16,6 @@ export default {
 
 <style scoped>
 .time-view {
-  margin-top: 75px;
+  margin-top: 25px;
 }
 </style>
