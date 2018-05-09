@@ -1,6 +1,6 @@
 <template>
   <section id="time-page">
-    <time-view />
+    <time-view class="time-view" />
   </section>
 </template>
 
@@ -14,6 +14,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.time-view {
+  margin-top: 75px;
+}
 </style>

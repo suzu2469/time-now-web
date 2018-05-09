@@ -2,7 +2,7 @@
   <div id="show-time">
     <div class="time-inner">
       <h1 class="time-row">
-        {{ currentTime.getMonth() }}/{{ currentTime.getDay() }}
+        {{ getMonth }}/{{ currentTime.getDate() }}
       </h1>
       <h1 class="time-row">
         {{ getHours }}&nbsp;<span class="time-coron">:</span>&nbsp;{{ getMinutes }}
@@ -31,6 +31,9 @@ export default {
     },
     getSeconds () {
       return ('00' + this.currentTime.getSeconds()).slice(-2)
+    },
+    getMonth () {
+      return this.currentTime.getMonth() + 1
     }
   },
   methods: {
