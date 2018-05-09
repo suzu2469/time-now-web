@@ -61,6 +61,7 @@ export default {
 .time-row {
   font-size: 120px;
   text-align: center;
+  user-select: none;
 }
 .time-coron {
   animation: flashing-in ease 2s infinite;
