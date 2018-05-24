@@ -8,6 +8,7 @@
         {{ getHours }}&nbsp;<span class="time-coron">:</span>&nbsp;{{ getMinutes }}
       </h1>
     </div>
+    <div class="fade-layer"></div>
   </div>
 </template>
 
@@ -52,11 +53,32 @@ export default {
 </script>
 
 <style scoped>
+.fade-layer {
+  background-color: rgba(0, 0, 0, 0.4);
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;  
+  width: 100%;
+  height: 100vh;
+}
 #show-time {
   height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
+  margin: 0;
+  padding: 30px 0 0;
+  background-image: url('../assets/img/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 850px 550px
+}
+.time-inner {
+  position: relative;
+  z-index: 5; 
+  color: white;
 }
 .time-row {
   font-size: 120px;

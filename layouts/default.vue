@@ -5,10 +5,10 @@
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Oswald:600');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 html {
-  font-family: "Oswald", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "Comfortaa", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
